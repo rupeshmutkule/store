@@ -206,7 +206,7 @@ export default function Footer() {
               <Link href="#">
                 <img
                   className="auto-width"
-                  src="/images/icons/amex.jpg"
+                  src="store/images/icons/amex.jpg"
                   alt="Amex"
                 />
               </Link>
@@ -215,7 +215,7 @@ export default function Footer() {
               <Link href="#">
                 <img
                   className="auto-width"
-                  src="/images/icons/discover.jpg"
+                  src="store/images/icons/discover.jpg"
                   alt="Discover"
                 />
               </Link>
@@ -224,7 +224,7 @@ export default function Footer() {
               <Link href="#">
                 <img
                   className="auto-width"
-                  src="/images/icons/visa.jpg"
+                  src="store/images/icons/visa.jpg"
                   alt="Visa"
                 />
               </Link>
@@ -233,7 +233,7 @@ export default function Footer() {
               <Link href="#">
                 <img
                   className="auto-width"
-                  src="/images/icons/mastercard.jpg"
+                  src="store/images/icons/mastercard.jpg"
                   alt="Mastercard"
                 />
               </Link>

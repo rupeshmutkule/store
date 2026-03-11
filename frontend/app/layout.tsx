@@ -16,12 +16,12 @@ export default function RootLayout({
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-        <link rel="stylesheet" href="/css/styles-shop.css" />
-        <link rel="stylesheet" type="text/css" href="/js/specific/revolution-slider/css/settings.css" media="screen" />
+        <link rel="stylesheet" href="store/css/styles-shop.css" />
+        <link rel="stylesheet" type="text/css" href="store/js/specific/revolution-slider/css/settings.css" media="screen" />
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,400,600,700,300" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic" rel="stylesheet" type="text/css" />
-        <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
-        <link rel="apple-touch-icon" href="/images/favicon.png" type="image/x-icon" />
+        <link rel="shortcut icon" href="store/images/favicon.png" type="image/x-icon" />
+        <link rel="apple-touch-icon" href="store/images/favicon.png" type="image/x-icon" />
       </head>
       <body className="responsive" id="demo-shop" suppressHydrationWarning>
         <div className="all_content" suppressHydrationWarning>
@@ -37,13 +37,13 @@ export default function RootLayout({
         </div>
 
         {/* Load scripts in the same order as original */}
-        <script src="/js/core/jquery-2.1.1.min.js"></script>
-        <script src="/js/core/load.js"></script>
-        <script src="/js/core/jquery.easing.1.3.js"></script>
-        <script src="/js/core/modernizr-2.8.2.min.js"></script>
-        <script src="/js/core/imagesloaded.pkgd.min.js"></script>
-        <script src="/js/core/respond.src.js"></script>
-        <script src="/js/libs.js"></script>
+        <script src="store/js/core/jquery-2.1.1.min.js"></script>
+        <script src="store/js/core/load.js"></script>
+        <script src="store/js/core/jquery.easing.1.3.js"></script>
+        <script src="store/js/core/modernizr-2.8.2.min.js"></script>
+        <script src="store/js/core/imagesloaded.pkgd.min.js"></script>
+        <script src="store/js/core/respond.src.js"></script>
+        <script src="store/js/libs.js"></script>
         <script dangerouslySetInnerHTML={{
           __html: `
             // Override any revolution slider calls to prevent errors
@@ -71,7 +71,7 @@ export default function RootLayout({
             }
           `
         }} />
-        <script src="/js/main.js"></script>
+        <script src="store/js/main.js"></script>
       </body>
     </html>
   );

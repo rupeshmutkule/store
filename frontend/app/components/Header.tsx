@@ -25,7 +25,7 @@ export default function Header() {
               <h1>
                 <a data-animated-link="fadeOut" href="/" title="PixelDima.com logo">
                   <span className="vertical-middle"></span>
-                  <img src="/images/okab_ecommerce_logo.png" alt="PixelDima Logo" title="PixelDima" />
+                  <img src="store/images/okab_ecommerce_logo.png" alt="PixelDima Logo" title="PixelDima" />
                 </a>
               </h1>
             </div>
@@ -169,7 +169,7 @@ export default function Header() {
               <h1>
                 <a data-animated-link="fadeOut" href="/" title="PixelDima.com logo">
                   <span className="vertical-middle"></span>
-                  <img src="/images/okab_ecommerce_logo.png" alt="PixelDima Logo" title="PixelDima" />
+                  <img src="store/images/okab_ecommerce_logo.png" alt="PixelDima Logo" title="PixelDima" />
                 </a>
               </h1>
             </div>

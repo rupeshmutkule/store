@@ -3,7 +3,7 @@ export default function LatestPosts() {
     {
       id: 1,
       title: "Psychology In Branding",
-      image: "/images/posts/post-6.jpg",
+      image: "store/images/posts/post-6.jpg",
       date: "11 Jul 2014",
       views: 122,
       comments: 12,
@@ -12,7 +12,7 @@ export default function LatestPosts() {
     {
       id: 2,
       title: "Responsive web design",
-      image: "/images/posts/post-7.jpg",
+      image: "store/images/posts/post-7.jpg",
       date: "11 Jul 2014",
       views: 122,
       comments: 12,
@@ -21,7 +21,7 @@ export default function LatestPosts() {
     {
       id: 3,
       title: "Process of Prototyping",
-      image: "/images/posts/post-8.jpg",
+      image: "store/images/posts/post-8.jpg",
       date: "11 Jul 2014",
       views: 122,
       comments: 12,
