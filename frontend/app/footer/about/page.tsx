@@ -9,6 +9,9 @@ import TrackOrderPage from "./Track-order";
 import CustomerSupportPage from "./Customer-support";
 import CareersPage from "./Careers";
 
+// Add this line
+export const dynamic = 'force-dynamic';
+
 function AboutPageContent() {
   const searchParams = useSearchParams();
   const tab = (searchParams.get("tab") || "about").toLowerCase();
