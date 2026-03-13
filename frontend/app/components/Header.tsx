@@ -153,9 +153,9 @@ export default function Header() {
                     </Link>
                   </li>
                   <li className="sub-icon menu-item-has-children">
-                    <a data-animated-link="fadeOut" href="#">
+                    <Link data-animated-link="fadeOut" href="/shop">
                       Shop
-                    </a>
+                    </Link>
                     <ul className="sub-menu nav-menu">
                       <li className="sub-icon menu-item-has-children">
                         <Link
@@ -279,7 +279,7 @@ export default function Header() {
                   <li className="sub-icon menu-item-has-children">
                     <Link
                       data-animated-link="fadeOut"
-                      href="/shop/product-detail/right-sidebar"
+                      href="/product-details"
                     >
                       Product Details
                     </Link>

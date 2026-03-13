@@ -478,7 +478,7 @@ export default function CheckoutPage() {
                               onChange={(e) => setPaymentMethod(e.target.value)}
                             />
                             PayPal
-                            <img className="auto-width" src="/images/icons/paypal.png" alt="PayPal" />
+                            <img className="auto-width" src="/store/images/icons/paypal.png" alt="PayPal" />
                           </label>
                           {paymentMethod === 'paypal' && (
                             <p className="toHide r-three">

@@ -1,6 +1,5 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   basePath: '/store',
   assetPrefix: '/store',
   images: {
@@ -17,6 +16,10 @@ const nextConfig: NextConfig = {
         protocol: 'https',
         hostname: 'i.pravatar.cc',
       },
+      {
+        protocol: 'https',
+        hostname: 'www.oceancowboy.com',
+      },
     ],
   },
   async redirects() {
@@ -27,8 +30,8 @@ const nextConfig: NextConfig = {
         permanent: true,
         basePath: false,
       }
-    ]
+    ];
   }
 };
 
-export default nextConfig;
+module.exports = nextConfig;
