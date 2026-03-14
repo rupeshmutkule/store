@@ -18,7 +18,8 @@ const db      = require('../config/db');
 // ── Helper: promisify your existing db connection ─────────
 // Works with mysql / mysql2 pool or connection object
 async function query(sql, params = []) {
-  const [rows] = await db.execute(sql, params);
+  // Use query() to avoid prepared statement issues with some MySQL configs
+  const [rows] = await db.query(sql, params);
   return rows;
 }
 
