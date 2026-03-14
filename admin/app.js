@@ -13,11 +13,23 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // ✅ CORS — allow frontend (Next.js) to call this API
+const normalizeOrigin = (value) => {
+  if (!value) return null;
+  try {
+    // If a full URL is provided (with path), keep only the origin
+    return new URL(value).origin;
+  } catch {
+    return value;
+  }
+};
+
+const frontendOrigin = normalizeOrigin(process.env.FRONTEND_URL);
+
 app.use(cors({
   origin: [
     'http://localhost:3001',
     'http://localhost:3000',
-    process.env.FRONTEND_URL || 'http://localhost:3001'
+    frontendOrigin || 'http://localhost:3001'
   ],
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization'],
